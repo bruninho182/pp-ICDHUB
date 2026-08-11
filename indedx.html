@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Política de Privacidade - ICD Hub</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f5f7fa;
+      color: #2d3748;
+      line-height: 1.7;
+      padding: 2rem 1rem;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      background: #ffffff;
+      border-radius: 24px;
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.08);
+      padding: 3rem 2.5rem;
+      transition: all 0.3s ease;
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        padding: 2rem 1.2rem;
+        border-radius: 16px;
+      }
+    }
+
+    .header {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      margin-bottom: 2.5rem;
+      border-bottom: 2px solid #edf2f7;
+      padding-bottom: 1.5rem;
+      flex-wrap: wrap;
+    }
+
+    .logo-icon {
+      background: #1a202c;
+      color: white;
+      font-weight: 700;
+      font-size: 1.8rem;
+      padding: 0.4rem 1rem;
+      border-radius: 12px;
+      letter-spacing: -0.5px;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.3rem;
+    }
+
+    .logo-icon span {
+      color: #fbbf24;
+    }
+
+    .header h1 {
+      font-size: 1.9rem;
+      font-weight: 700;
+      color: #1a202c;
+      letter-spacing: -0.5px;
+    }
+
+    .header .sub {
+      font-size: 0.95rem;
+      color: #718096;
+      margin-top: 0.2rem;
+      width: 100%;
+    }
+
+    .badge {
+      display: inline-block;
+      background: #ebf8ff;
+      color: #2b6cb0;
+      font-size: 0.8rem;
+      font-weight: 600;
+      padding: 0.2rem 0.9rem;
+      border-radius: 30px;
+      margin-left: 0.5rem;
+      white-space: nowrap;
+    }
+
+    .last-update {
+      background: #f7fafc;
+      padding: 0.5rem 1.2rem;
+      border-radius: 40px;
+      font-size: 0.9rem;
+      color: #4a5568;
+      display: inline-block;
+      margin-bottom: 1.8rem;
+      border: 1px solid #e2e8f0;
+    }
+
+    h2 {
+      font-size: 1.6rem;
+      font-weight: 600;
+      margin-top: 2.5rem;
+      margin-bottom: 0.8rem;
+      color: #1a202c;
+      border-left: 6px solid #fbbf24;
+      padding-left: 1rem;
+    }
+
+    h3 {
+      font-size: 1.2rem;
+      font-weight: 600;
+      margin-top: 1.8rem;
+      margin-bottom: 0.5rem;
+      color: #2d3748;
+    }
+
+    p {
+      margin-bottom: 1.2rem;
+      color: #4a5568;
+    }
+
+    ul {
+      margin: 1rem 0 1.5rem 1.8rem;
+      color: #4a5568;
+    }
+
+    ul li {
+      margin-bottom: 0.5rem;
+    }
+
+    ul li strong {
+      color: #2d3748;
+    }
+
+    .highlight-box {
+      background: #f7fafc;
+      border-left: 5px solid #fbbf24;
+      padding: 1.2rem 1.8rem;
+      border-radius: 12px;
+      margin: 1.8rem 0;
+    }
+
+    .highlight-box p:last-child {
+      margin-bottom: 0;
+    }
+
+    .declaration-list {
+      list-style: none;
+      margin-left: 0;
+      padding: 0;
+    }
+
+    .declaration-list li {
+      background: #f7fafc;
+      padding: 0.8rem 1.2rem;
+      margin-bottom: 0.6rem;
+      border-radius: 10px;
+      display: flex;
+      align-items: flex-start;
+      gap: 0.8rem;
+      border-left: 4px solid #48bb78;
+    }
+
+    .declaration-list li::before {
+      content: "✅";
+      font-size: 1.2rem;
+      color: #48bb78;
+    }
+
+    .contact-info {
+      background: #edf2f7;
+      padding: 1.5rem 2rem;
+      border-radius: 16px;
+      margin-top: 2rem;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+    }
+
+    .contact-info a {
+      color: #2b6cb0;
+      font-weight: 600;
+      text-decoration: none;
+      border-bottom: 2px solid transparent;
+      transition: 0.2s;
+    }
+
+    .contact-info a:hover {
+      border-bottom-color: #2b6cb0;
+    }
+
+    .footer {
+      margin-top: 3rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid #e2e8f0;
+      text-align: center;
+      color: #a0aec0;
+      font-size: 0.9rem;
+    }
+
+    .footer a {
+      color: #4a5568;
+      text-decoration: none;
+    }
+
+    .footer a:hover {
+      text-decoration: underline;
+    }
+
+    .small-note {
+      font-size: 0.85rem;
+      color: #718096;
+      background: #fefcbf;
+      padding: 0.6rem 1.2rem;
+      border-radius: 30px;
+      display: inline-block;
+      margin-bottom: 1.5rem;
+    }
+
+    /* Responsividade */
+    @media (max-width: 480px) {
+      .header h1 {
+        font-size: 1.5rem;
+      }
+      .logo-icon {
+        font-size: 1.4rem;
+        padding: 0.2rem 0.7rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Cabeçalho -->
+    <div class="header">
+      <div class="logo-icon">
+        ICD <span>Hub</span>
+      </div>
+      <h1>
+        Política de Privacidade
+        <span class="badge">v3.1</span>
+      </h1>
+      <div class="sub">
+        Extensão para Google Chrome · Uso interno da Ingresso com Desconto
+      </div>
+    </div>
+
+    <div class="last-update">
+      📅 Última atualização: 11 de agosto de 2026
+    </div>
+
+    <!-- Introdução -->
+    <h2>1. Introdução</h2>
+    <p>
+      O <strong>ICD Hub</strong> é uma extensão para Google Chrome desenvolvida exclusivamente para uso interno da 
+      <strong>Ingresso com Desconto</strong>. Esta Política de Privacidade descreve como coletamos, usamos, armazenamos 
+      e protegemos as informações dos usuários da extensão, em conformidade com as políticas da Chrome Web Store e com a 
+      Lei Geral de Proteção de Dados (LGPD).
+    </p>
+    <p>
+      Ao utilizar o ICD Hub, você concorda com os termos descritos neste documento. Se você não concordar com esta política, 
+      recomendamos que não utilize a extensão.
+    </p>
+
+    <!-- Dados Coletados -->
+    <h2>2. Dados Coletados</h2>
+    <p>
+      A extensão coleta apenas os dados estritamente necessários para o cumprimento de sua finalidade operacional. 
+      Os dados coletados são:
+    </p>
+    <ul>
+      <li><strong>Atividade do Usuário:</strong> Cliques, movimentos do mouse, preenchimento de formulários e tempo de inatividade. Esses dados são utilizados exclusivamente para o funcionamento do <strong>Dashboard de Desempenho</strong> e do sistema de <strong>Alertas Inteligentes</strong>, que notificam gestores sobre inatividade prolongada dos operadores.</li>
+      <li><strong>Conteúdo do Site:</strong> Textos, imagens, dados de vouchers e informações de plataformas de turismo (TourCMS, Headout, GetYourGuide, Civitatis, TicketGO), acessados e processados localmente para executar automações como preenchimento de formulários, geração de vouchers, envio de e-mails e sincronização entre plataformas.</li>
+    </ul>
+    <p>
+      <strong>Não coletamos:</strong> Informações de identificação pessoal (nome, e-mail, CPF), dados de saúde, informações financeiras, senhas, dados de localização, histórico de navegação ou comunicações pessoais fora do escopo operacional.
+    </p>
+
+    <!-- Finalidade -->
+    <h2>3. Finalidade do Uso dos Dados</h2>
+    <p>
+      Os dados coletados são utilizados <strong>exclusivamente</strong> para:
+    </p>
+    <ul>
+      <li><strong>Automatizar tarefas operacionais:</strong> Preenchimento automático de e-mails, geração e envio de vouchers, sincronização de dados entre plataformas de turismo, cálculos de orçamento e envio de mensagens padronizadas via WhatsApp.</li>
+      <li><strong>Monitorar a produtividade da equipe:</strong> Através do Dashboard em tempo real, que exibe métricas como número de atendimentos, e-mails enviados, vouchers emitidos e tempo de atividade dos operadores.</li>
+      <li><strong>Melhorar a eficiência operacional:</strong> Fornecendo alertas de inatividade e relatórios que auxiliam os gestores na tomada de decisões.</li>
+    </ul>
+    <p>
+      Todos os dados são processados localmente no dispositivo do usuário ou armazenados em servidores seguros da <strong>Supabase</strong>, com criptografia e acesso restrito aos administradores autorizados da Ingresso com Desconto.
+    </p>
+
+    <!-- Armazenamento e Segurança -->
+    <h2>4. Armazenamento e Segurança</h2>
+    <ul>
+      <li><strong>Armazenamento local:</strong> Dados de configuração e preferências (mensagens prontas, atalhos, tarifários) são armazenados localmente no dispositivo do usuário via <code>chrome.storage</code>, garantindo persistência entre sessões sem necessidade de reconfiguração.</li>
+      <li><strong>Armazenamento em nuvem:</strong> Métricas de desempenho (número de atendimentos, e-mails, vouchers, tempo de atividade) são enviadas para o banco de dados Supabase, que utiliza criptografia em trânsito e em repouso, com acesso restrito a administradores autorizados.</li>
+      <li><strong>Medidas de segurança:</strong> Implementamos autenticação via login protegido, sessão persistente e controle de permissões por operador para garantir que apenas usuários autorizados acessem os dados.</li>
+      <li><strong>Retenção de dados:</strong> Os dados são mantidos apenas pelo tempo necessário para cumprir as finalidades operacionais. Dados históricos podem ser retidos para análise de desempenho, mas sempre de forma agregada e anonimizada.</li>
+    </ul>
+
+    <!-- Compartilhamento -->
+    <h2>5. Compartilhamento de Dados</h2>
+    <p>
+      <strong>Não compartilhamos, vendemos ou transferimos dados dos usuários para terceiros.</strong> 
+      Os dados são utilizados exclusivamente para os fins operacionais descritos nesta política. 
+      Excepcionalmente, dados agregados e anonimizados podem ser utilizados para relatórios internos de desempenho, 
+      sem identificação individual dos operadores.
+    </p>
+    <div class="highlight-box">
+      <p><strong>Compromisso:</strong> A Ingresso com Desconto não utiliza dados para fins de crédito, avaliação de credibilidade, marketing direcionado ou qualquer outra finalidade não relacionada à operação interna da extensão.</p>
+    </div>
+
+    <!-- Direitos do Usuário -->
+    <h2>6. Direitos do Usuário</h2>
+    <p>
+      Os usuários do ICD Hub têm os seguintes direitos, em conformidade com a LGPD:
+    </p>
+    <ul>
+      <li><strong>Acesso:</strong> Solicitar acesso aos dados armazenados sobre você.</li>
+      <li><strong>Correção:</strong> Solicitar a correção de dados incompletos, inexatos ou desatualizados.</li>
+      <li><strong>Exclusão:</strong> Solicitar a exclusão de seus dados pessoais, exceto quando a manutenção for necessária para cumprimento de obrigação legal ou regulatória.</li>
+      <li><strong>Revogação de consentimento:</strong> A qualquer momento, você pode desinstalar a extensão e revogar seu consentimento para coleta de dados.</li>
+    </ul>
+    <p>
+      Para exercer esses direitos, entre em contato através dos canais informados na seção <strong>Contato</strong> abaixo.
+    </p>
+
+    <!-- Alterações na Política -->
+    <h2>7. Alterações nesta Política</h2>
+    <p>
+      Podemos atualizar esta política periodicamente para refletir mudanças em nossas práticas ou em requisitos legais. 
+      Notificaremos os usuários sobre mudanças significativas através da extensão (via notificação) ou por e-mail 
+      (caso tenhamos um endereço registrado). A data da última atualização será sempre exibida no topo desta página.
+    </p>
+
+    <!-- Declarações Obrigatórias -->
+    <h2>8. Declarações de Conformidade</h2>
+    <p>Em conformidade com as políticas da Chrome Web Store, declaramos que:</p>
+    <ul class="declaration-list">
+      <li><strong>Não vendemos nem transferimos dados do usuário a terceiros</strong> fora dos casos de uso aprovados.</li>
+      <li><strong>Não usamos nem transferimos dados do usuário</strong> para fins não relacionados ao único objetivo da extensão.</li>
+      <li><strong>Não usamos nem transferimos dados do usuário</strong> para determinar credibilidade ou para fins de empréstimo.</li>
+    </ul>
+
+    <!-- Contato -->
+    <h2>9. Contato</h2>
+    <p>
+      Se você tiver dúvidas, preocupações ou solicitações relacionadas a esta Política de Privacidade ou ao tratamento de seus dados, entre em contato conosco:
+    </p>
+    <div class="contact-info">
+      <span><strong>Ingresso com Desconto/DEV Bruno Ferreira</strong></span>
+      <span>📧 <a href="mailto:icd.bruno96@gmail.com">icd.bruno96@gmail.com</a></span>
+    </div>
+    <p style="margin-top: 0.8rem; font-size: 0.95rem;">
+      Responderemos em até 5 dias úteis.
+    </p>
+
+    <!-- Rodapé -->
+    <div class="footer">
+      <p>
+        &copy; 2026 <strong>Ingresso com Desconto</strong> &middot; Todos os direitos reservados &middot; 
+        <a href="#">ICD Hub v3.1</a>
+      </p>
+      <p style="margin-top: 0.3rem; font-size: 0.8rem; color: #a0aec0;">
+        Esta política é parte integrante dos Termos de Uso da extensão.
+      </p>
+      <i class="fas fa-code"></i> Desenvolvido por 
+    <a href="https://github.com/bruninho182" target="_blank">
+      <i class="fab fa-github"></i> Bruno Ferreira
+    </a>
+    </div>
+  </div>
+</body>
+</html>
