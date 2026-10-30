@@ -1,10 +1,5 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Política de Privacidade - ICD Hub</title>
-  <style>
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Política de Privacidade — ICD Hub 3.7</title><style>
     * {
       margin: 0;
       padding: 0;
@@ -233,149 +228,31 @@
         padding: 0.2rem 0.7rem;
       }
     }
-  </style>
-</head>
-<body>
-  <div class="container">
-    <!-- Cabeçalho -->
-    <div class="header">
-      <div class="logo-icon">
-        ICD <span>Hub</span>
-      </div>
-      <h1>
-        Política de Privacidade
-        <span class="badge">v3.1</span>
-      </h1>
-      <div class="sub">
-        Extensão para Google Chrome · Uso interno da Ingresso com Desconto
-      </div>
-    </div>
-
-    <div class="last-update">
-      📅 Última atualização: 11 de agosto de 2026
-    </div>
-
-    <!-- Introdução -->
-    <h2>1. Introdução</h2>
-    <p>
-      O <strong>ICD Hub</strong> é uma extensão para Google Chrome desenvolvida exclusivamente para uso interno da 
-      <strong>Ingresso com Desconto</strong>. Esta Política de Privacidade descreve como coletamos, usamos, armazenamos 
-      e protegemos as informações dos usuários da extensão, em conformidade com as políticas da Chrome Web Store e com a 
-      Lei Geral de Proteção de Dados (LGPD).
-    </p>
-    <p>
-      Ao utilizar o ICD Hub, você concorda com os termos descritos neste documento. Se você não concordar com esta política, 
-      recomendamos que não utilize a extensão.
-    </p>
-
-    <!-- Dados Coletados -->
-    <h2>2. Dados Coletados</h2>
-    <p>
-      A extensão coleta apenas os dados estritamente necessários para o cumprimento de sua finalidade operacional. 
-      Os dados coletados são:
-    </p>
-    <ul>
-      <li><strong>Atividade do Usuário:</strong> Cliques, movimentos do mouse, preenchimento de formulários e tempo de inatividade. Esses dados são utilizados exclusivamente para o funcionamento do <strong>Dashboard de Desempenho</strong> e do sistema de <strong>Alertas Inteligentes</strong>, que notificam gestores sobre inatividade prolongada dos operadores.</li>
-      <li><strong>Conteúdo do Site:</strong> Textos, imagens, dados de vouchers e informações de plataformas de turismo (TourCMS, Headout, GetYourGuide, Civitatis, TicketGO), acessados e processados localmente para executar automações como preenchimento de formulários, geração de vouchers, envio de e-mails e sincronização entre plataformas.</li>
-    </ul>
-    <p>
-      <strong>Não coletamos:</strong> Informações de identificação pessoal (nome, e-mail, CPF), dados de saúde, informações financeiras, senhas, dados de localização, histórico de navegação ou comunicações pessoais fora do escopo operacional.
-    </p>
-
-    <!-- Finalidade -->
-    <h2>3. Finalidade do Uso dos Dados</h2>
-    <p>
-      Os dados coletados são utilizados <strong>exclusivamente</strong> para:
-    </p>
-    <ul>
-      <li><strong>Automatizar tarefas operacionais:</strong> Preenchimento automático de e-mails, geração e envio de vouchers, sincronização de dados entre plataformas de turismo, cálculos de orçamento e envio de mensagens padronizadas via WhatsApp.</li>
-      <li><strong>Monitorar a produtividade da equipe:</strong> Através do Dashboard em tempo real, que exibe métricas como número de atendimentos, e-mails enviados, vouchers emitidos e tempo de atividade dos operadores.</li>
-      <li><strong>Melhorar a eficiência operacional:</strong> Fornecendo alertas de inatividade e relatórios que auxiliam os gestores na tomada de decisões.</li>
-    </ul>
-    <p>
-      Todos os dados são processados localmente no dispositivo do usuário ou armazenados em servidores seguros da <strong>Supabase</strong>, com criptografia e acesso restrito aos administradores autorizados da Ingresso com Desconto.
-    </p>
-
-    <!-- Armazenamento e Segurança -->
-    <h2>4. Armazenamento e Segurança</h2>
-    <ul>
-      <li><strong>Armazenamento local:</strong> Dados de configuração e preferências (mensagens prontas, atalhos, tarifários) são armazenados localmente no dispositivo do usuário via <code>chrome.storage</code>, garantindo persistência entre sessões sem necessidade de reconfiguração.</li>
-      <li><strong>Armazenamento em nuvem:</strong> Métricas de desempenho (número de atendimentos, e-mails, vouchers, tempo de atividade) são enviadas para o banco de dados Supabase, que utiliza criptografia em trânsito e em repouso, com acesso restrito a administradores autorizados.</li>
-      <li><strong>Medidas de segurança:</strong> Implementamos autenticação via login protegido, sessão persistente e controle de permissões por operador para garantir que apenas usuários autorizados acessem os dados.</li>
-      <li><strong>Retenção de dados:</strong> Os dados são mantidos apenas pelo tempo necessário para cumprir as finalidades operacionais. Dados históricos podem ser retidos para análise de desempenho, mas sempre de forma agregada e anonimizada.</li>
-    </ul>
-
-    <!-- Compartilhamento -->
-    <h2>5. Compartilhamento de Dados</h2>
-    <p>
-      <strong>Não compartilhamos, vendemos ou transferimos dados dos usuários para terceiros.</strong> 
-      Os dados são utilizados exclusivamente para os fins operacionais descritos nesta política. 
-      Excepcionalmente, dados agregados e anonimizados podem ser utilizados para relatórios internos de desempenho, 
-      sem identificação individual dos operadores.
-    </p>
-    <div class="highlight-box">
-      <p><strong>Compromisso:</strong> A Ingresso com Desconto não utiliza dados para fins de crédito, avaliação de credibilidade, marketing direcionado ou qualquer outra finalidade não relacionada à operação interna da extensão.</p>
-    </div>
-
-    <!-- Direitos do Usuário -->
-    <h2>6. Direitos do Usuário</h2>
-    <p>
-      Os usuários do ICD Hub têm os seguintes direitos, em conformidade com a LGPD:
-    </p>
-    <ul>
-      <li><strong>Acesso:</strong> Solicitar acesso aos dados armazenados sobre você.</li>
-      <li><strong>Correção:</strong> Solicitar a correção de dados incompletos, inexatos ou desatualizados.</li>
-      <li><strong>Exclusão:</strong> Solicitar a exclusão de seus dados pessoais, exceto quando a manutenção for necessária para cumprimento de obrigação legal ou regulatória.</li>
-      <li><strong>Revogação de consentimento:</strong> A qualquer momento, você pode desinstalar a extensão e revogar seu consentimento para coleta de dados.</li>
-    </ul>
-    <p>
-      Para exercer esses direitos, entre em contato através dos canais informados na seção <strong>Contato</strong> abaixo.
-    </p>
-
-    <!-- Alterações na Política -->
-    <h2>7. Alterações nesta Política</h2>
-    <p>
-      Podemos atualizar esta política periodicamente para refletir mudanças em nossas práticas ou em requisitos legais. 
-      Notificaremos os usuários sobre mudanças significativas através da extensão (via notificação) ou por e-mail 
-      (caso tenhamos um endereço registrado). A data da última atualização será sempre exibida no topo desta página.
-    </p>
-
-    <!-- Declarações Obrigatórias -->
-    <h2>8. Declarações de Conformidade</h2>
-    <p>Em conformidade com as políticas da Chrome Web Store, declaramos que:</p>
-    <ul class="declaration-list">
-      <li><strong>Não vendemos nem transferimos dados do usuário a terceiros</strong> fora dos casos de uso aprovados.</li>
-      <li><strong>Não usamos nem transferimos dados do usuário</strong> para fins não relacionados ao único objetivo da extensão.</li>
-      <li><strong>Não usamos nem transferimos dados do usuário</strong> para determinar credibilidade ou para fins de empréstimo.</li>
-    </ul>
-
-    <!-- Contato -->
-    <h2>9. Contato</h2>
-    <p>
-      Se você tiver dúvidas, preocupações ou solicitações relacionadas a esta Política de Privacidade ou ao tratamento de seus dados, entre em contato conosco:
-    </p>
-    <div class="contact-info">
-      <span><strong>Ingresso com Desconto/DEV Bruno Ferreira</strong></span>
-      <span>📧 <a href="mailto:icd.bruno96@gmail.com">icd.bruno96@gmail.com</a></span>
-    </div>
-    <p style="margin-top: 0.8rem; font-size: 0.95rem;">
-      Responderemos em até 5 dias úteis.
-    </p>
-
-    <!-- Rodapé -->
-    <div class="footer">
-      <p>
-        &copy; 2026 <strong>Ingresso com Desconto</strong> &middot; Todos os direitos reservados &middot; 
-        <a href="#">ICD Hub v3.1</a>
-      </p>
-      <p style="margin-top: 0.3rem; font-size: 0.8rem; color: #a0aec0;">
-        Esta política é parte integrante dos Termos de Uso da extensão.
-      </p>
-      <i class="fas fa-code"></i> Desenvolvido por 
-    <a href="https://github.com/bruninho182" target="_blank">
-      <i class="fab fa-github"></i> Bruno Ferreira
-    </a>
-    </div>
-  </div>
-</body>
-</html>
+  </style><style>table{width:100%;border-collapse:collapse;margin:18px 0}th,td{border:1px solid #dbe2ea;padding:12px;text-align:left;vertical-align:top}th{background:#edf2f7}a{color:#2456a6}td{overflow-wrap:anywhere}.tabela{overflow-x:auto}nav{margin:20px 0}li{line-height:1.7}</style></head>
+<body><main class="container"><header class="header"><div class="logo-icon">ICD <span>Hub</span></div><h1>Política de Privacidade <span class="badge">v3.7</span></h1><p class="sub">Extensão de apoio ao atendimento e à operação da Ingresso com Desconto</p></header><p class="last-update">Última atualização: 30 de outubro de 2026</p>
+<div class="highlight-box"><p><strong>Em resumo:</strong> o ICD Hub manipula dados pessoais de operadores e clientes para apoiar atendimentos, reservas, cotações, vouchers, e-mails e estornos. Parte dos dados permanece no navegador; serviços externos recebem informações conforme as funcionalidades utilizadas. As métricas da versão 3.7 não incluem conteúdo de mensagens, destinatários ou identificadores de clientes.</p></div>
+<nav aria-label="Conteúdo"><a href="#dados">Dados tratados</a> · <a href="#servicos">Serviços e destinos</a> · <a href="#controles">Controles</a> · <a href="#retencao">Retenção</a> · <a href="#contato">Contato</a></nav>
+<h2>1. Escopo e responsáveis</h2><p>Esta política descreve o funcionamento da versão 3.7 do ICD Hub. O desenvolvedor e contato técnico é <strong>Bruno Ferreira</strong>, pelo e-mail <a href="mailto:icd.bruno96@gmail.com">icd.bruno96@gmail.com</a>. A extensão é destinada a operadores autorizados da Ingresso com Desconto. A organização responsável pelo atendimento determina as finalidades e autorizações para tratar os dados dos seus clientes; o uso da extensão deve respeitar essas orientações e a legislação aplicável.</p><p>Esta página informa o tratamento de dados pela extensão e não substitui os avisos e políticas dos sistemas da empresa ou das plataformas acessadas.</p>
+<h2 id="dados">2. Dados que a extensão acessa, usa ou armazena</h2><div class="tabela"><table><thead><tr><th>Categoria</th><th>Exemplos e finalidade</th></tr></thead><tbody>
+<tr><td>Identificação e contato</td><td>Nome do operador; nome, e-mail, telefone e documentos do cliente, como CPF ou passaporte, quando disponíveis nas reservas e necessários ao fluxo utilizado. São usados para preencher e conferir cadastros, vouchers e mensagens.</td></tr>
+<tr><td>Reservas e conteúdo operacional</td><td>Código da reserva/voucher, passeio, modalidade, datas, horários, quantidade de visitantes, tarifas, disponibilidade e conteúdo de relatórios das plataformas. São usados em importações, cotações e remarcações.</td></tr>
+<tr><td>Comunicações e conteúdo criado pelo operador</td><td>Atalhos, traduções cadastradas, mensagens, assuntos de e-mail, destinatários, anotações e dados de rascunhos. A extensão insere textos no WhatsApp ou prepara e-mails mediante ações do operador. O anexo e o envio de e-mail continuam manuais.</td></tr>
+<tr><td>Informações financeiras operacionais</td><td>Forma de pagamento, valor da reserva, adquirente, NSU ou código de transação e informações de solicitação de estorno. São tratadas quando o operador utiliza a coleta para a planilha. A extensão não solicita número completo de cartão ou código de segurança para essa coleta.</td></tr>
+<tr><td>Atividade do operador</td><td>Nome e identificador derivado do nome, tipo de ação (WhatsApp, e-mail ou voucher), data/hora, identificador técnico do evento, método da ação e tamanho da mensagem quando aplicável. Servem para contagens de produtividade e identificação de períodos sem eventos registrados; não comprovam presença ou ausência de trabalho.</td></tr>
+<tr><td>Preferências e configuração</td><td>Pastas, tarifários, funcionalidades ativadas, posição do painel e configurações da integração com planilha. O token dessa integração é armazenado localmente e enviado ao endpoint configurado quando necessário para autenticar uma operação solicitada.</td></tr>
+</tbody></table></div><p>O acesso ocorre nas páginas compatíveis declaradas no manifesto, como os sistemas ICD, WhatsApp Web, Locaweb, GetYourGuide, TourCMS/Grayline, Civitatis, Ticket Go, Pagar.me e o sistema de navio. A extensão não solicita acesso indiscriminado ao histórico de navegação nem busca dados em sites sem relação com essas funções. Não usa dados para publicidade comportamental ou avaliação de crédito.</p>
+<h2 id="servicos">3. Armazenamento, transmissão e prestadores</h2><ul>
+<li><strong>No navegador:</strong> configurações, anotações, tarifários, dados de reservas em preparação, destinatários de campanhas, progresso de lotes e filas de métricas podem ficar em <code>chrome.storage.local</code>. A interface do dashboard também usa armazenamento local/de sessão. Esses dados não são sincronizados automaticamente entre computadores pela extensão.</li>
+<li><strong>Supabase:</strong> recebe as métricas de atividade descritas acima, associadas ao operador, para o dashboard e alertas de períodos sem eventos. As métricas não são anônimas. Na versão 3.7, campos de destinatário, assunto, cliente, código de reserva e corpo de mensagens são excluídos da fila de métricas antes de gravar novos registros e antes de transmitir filas antigas. Isso não apaga registros já enviados por versões anteriores.</li>
+<li><strong>Google Apps Script e Google Sheets:</strong> quando a integração é configurada e o operador confirma uma coleta, os dados operacionais de estorno (incluindo reserva, transação, valores e contato do cliente) são enviados ao endpoint configurado para registro na planilha. O responsável pela operação define quem pode acessar essa planilha.</li>
+<li><strong>WhatsApp, Locaweb e plataformas de reserva/pagamento:</strong> recebem os dados inseridos e enviados pelo operador nos respectivos sistemas, sob as políticas desses serviços. A extensão utiliza as sessões já abertas pelo usuário, sem criar uma conta compartilhada de atendimento própria.</li>
+<li><strong>Recursos de interface:</strong> algumas telas carregam fontes/estilos do Google Fonts e cdnjs; imagens de atalhos podem ser carregadas dos endereços cadastrados pelo operador. Esses provedores podem receber dados técnicos da conexão, como endereço IP, conforme suas próprias políticas. Não recebem o conteúdo do atendimento como parte dessas requisições de recursos.</li>
+<li><strong>Arquivos exportados:</strong> backups, cotações, relatórios e vouchers baixados ficam no destino escolhido pelo usuário. Quem exporta ou compartilha esses arquivos é responsável por protegê-los, especialmente quando contêm dados pessoais. O backup seletivo não exporta tokens, filas de métricas, reservas em andamento ou campanhas de e-mail; textos cadastrados em atalhos e anotações são incluídos se essas categorias forem escolhidas.</li>
+</ul><p>Supabase e Google são prestadores utilizados conforme as integrações, e podem processar dados fora do Brasil, conforme a infraestrutura e configuração dos serviços. A extensão não vende dados pessoais. Os dados são usados para os fluxos operacionais descritos, e não para finalidades publicitárias ou de crédito.</p>
+<h2 id="controles">4. Escolhas e permissões</h2><p>A aba <strong>Funcionalidades</strong> permite ocultar ferramentas individualmente. A chave <strong>Métricas de produtividade</strong> permite interromper novos registros e envios de métricas naquele navegador. Essa chave é independente das ferramentas de atendimento. Na versão 3.7, as métricas ficam desligadas até o operador ativar essa chave após ler o aviso sobre os dados enviados. A atualização também pausa a coleta em instalações anteriores que ainda não tenham ativado essa opção. A escolha pode ser alterada a qualquer momento. A autorização de métricas não é exportada ou importada pelo backup e deve ser feita no próprio navegador.</p><p>Desativar métricas não apaga dados já transmitidos. Uma fila local existente é saneada para remover detalhes de clientes e pode ser enviada ao reativar a função. Para interromper a execução de uma ferramenta já carregada, recarregue a página depois de desativá-la. Desinstalar a extensão interrompe sua atuação, mas não apaga dados existentes no Supabase, em planilhas, nos serviços de comunicação ou em arquivos exportados.</p><p>As permissões de armazenamento, abas, execução de scripts nas páginas compatíveis, downloads, alarmes e notificações servem às funções descritas. O diagnóstico é executado ao clicar: consulta controles nas páginas abertas e apresenta versão, nome dos sites e estado dos controles. O texto do diagnóstico não inclui dados de clientes, URLs completas de reservas, conteúdo de mensagens ou tokens.</p>
+<h2>5. Proteção dos dados e limites técnicos</h2><p>As comunicações das integrações com Supabase e Google Apps Script usam HTTPS. O acesso aos dados na nuvem depende das políticas e permissões configuradas no banco, na planilha e nas contas dos serviços. Não há promessa de segurança absoluta.</p><p>A identificação do operador e a senha da interface do dashboard não equivalem, por si sós, à autenticação individual no servidor. O responsável pela infraestrutura deve manter controles adequados no Supabase e nos demais serviços. Tokens e credenciais não devem ser incluídos em backups nem compartilhados em mensagens ou capturas de tela. As sessões de acesso aos sites são administradas por esses próprios serviços.</p>
+<h2 id="retencao">6. Conservação e exclusão</h2><p>Configurações e cadastros locais permanecem até edição, exclusão ou limpeza dos dados da extensão. Preparações de e-mail podem ser consumidas após preenchimento confirmado; campanhas e outras pendências podem persistir para retomada. Backups e arquivos baixados permanecem até serem excluídos no destino onde foram salvos.</p><p>Os registros já enviados ao Supabase ou à planilha permanecem conforme a administração desses serviços, para as necessidades de atendimento, acompanhamento operacional e eventuais obrigações aplicáveis. A versão 3.7 não implementa expiração automática ou anonimização retroativa dos dados desses serviços. Solicitações de acesso, correção, eliminação ou informação sobre os critérios de conservação podem ser encaminhadas ao contato abaixo para análise pelo responsável.</p>
+<h2>7. Direitos e solicitações</h2><p>O titular pode solicitar informações sobre o tratamento, acesso, correção e eliminação dos seus dados, bem como exercer os demais direitos aplicáveis, incluindo oposição ou retirada de consentimento quando essa for a base utilizada. O atendimento pode exigir verificação proporcional de identidade e considerar obrigações de conservação. Não envie senhas ou números completos de cartão para fazer uma solicitação.</p><p>O tratamento operacional não deve se apoiar apenas em uma aceitação genérica desta página. A organização responsável deve definir a base legal e informar operadores e clientes de acordo com a atividade realizada e a legislação aplicável.</p>
+<h2>8. Compromissos de uso limitado</h2><ul class="declaration-list"><li>Não vendemos dados e não os transferimos fora das finalidades operacionais descritas e dos casos permitidos pela Política de Dados do Usuário da Chrome Web Store.</li><li>Não usamos nem transferimos dados para finalidades sem relação com o propósito de apoio ao atendimento e à operação da extensão.</li><li>Não usamos nem transferimos dados para determinar capacidade de crédito ou para fins de empréstimo.</li></ul><p>As declarações na Chrome Web Store devem refletir todas as categorias tratadas, inclusive dados usados apenas localmente. Esta política não substitui a revisão realizada pela loja.</p>
+<h2>9. Atualizações</h2><p>Alterações nesta política serão publicadas nesta página com a data de atualização. Mudanças de comportamento serão descritas nas informações da versão e no aviso de privacidade da extensão. Versões anteriores podem ter enviado métricas com destinatários, assuntos e identificadores de clientes; a minimização da versão 3.7 vale para registros futuros e filas locais processadas pela atualização, sem exclusão automática do histórico remoto.</p>
+<h2 id="contato">10. Contato</h2><div class="contact-info"><strong>Bruno Ferreira — ICD Hub</strong><a href="mailto:icd.bruno96@gmail.com">icd.bruno96@gmail.com</a></div><p>Use esse canal para dúvidas sobre a extensão e para encaminhar solicitações sobre dados tratados na operação da Ingresso com Desconto.</p><footer class="footer"><p>ICD Hub 3.7 · Atualizado em 30 de outubro de 2026</p><a href="https://github.com/bruninho182/ICDhub">Código e documentação</a></footer></main></body></html>
